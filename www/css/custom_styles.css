@@ -1,0 +1,29 @@
+body, h1, h2, h3, h4, h5, h6, .btn, label, input, select, textarea {
+  font-family: 'Mulish', sans-serif;
+}
+
+/* Style for the logo image */
+.logo-image {
+  float: left;
+  padding-right: 20px;
+  height: 70px; /* Adjust the height as needed */
+}
+
+/* Style for the header title */
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the main title to ensure it takes full width when possible and centers the text */
+.main-title {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 45px;
+}
+
+/* Style the modal content to have a light gray background */
+.modal-content {
+  background-color: #f8f9fa;  
+}
